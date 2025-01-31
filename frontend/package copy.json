@@ -13,8 +13,7 @@
     "build": "npm run build --workspaces",
     "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
     "start:frontend": "npm run start --workspace=frontend",
-    "start:backend": "npm run start --workspace=backend",
-    "clean": "rm -rf node_modules && rm -rf frontend/node_modules && rm -rf backend/node_modules"
+    "start:backend": "npm run start --workspace=backend"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
